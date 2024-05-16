@@ -1,0 +1,138 @@
+Famous Gems of City Of Naga
+  
+.header-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2em;
+}
+  
+.header-content .logo {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin: 2em
+}
+  
+nav ul li a {
+    color: rgb(221, 5, 23);
+    text-decoration: none;
+    font-weight: lighter;
+}
+  
+.header-text {
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+  
+.header-text h1 { 
+    font-size: 3em;
+    margin-bottom: 10m;
+}
+  
+  .header-text p{
+    font-size: 1.5em;
+}
+
+/* Header styles */
+header {
+    background-color:#e2d9d9; /* Dark background for header */
+    color: #a5a1a1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main section styles */
+.destinations {
+    padding: 60px 0;
+}
+
+.destinations h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #eb0b0b; /* Dark text color */
+}
+
+.destination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2in;
+    margin-bottom: 2in;
+    box-align: center
+}
+
+.destination-info {
+    background-color: #05cc51; /* White background for destination info */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(29, 28, 28, 0.1); /* Shadow effect */
+    margin-top: 10px;
+    width: calc(100 - 20px); /* Adjust based on the number of destinations per row */
+}
+
+.destination-info h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #7869ac; /* Dark text color */
+}
+
+.destination-info p {
+    margin: 5px 0;
+    color: #1a1818; /* Dark text color */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333; /* Dark button color */
+    color: #130909;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #db1414; /* Darker color on hover */
+}
+
+  /* Styling for the "Get Started" button */
+  .header-text .btn {
+    background-color: #08d82a;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-top: 1in;
+    margin-bottom: 2in;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-text .btn:hover{
+    background-color: #05963c;
+  }
+
+/* Footer styles */
+footer {
+    background-color: #857c7c; /* Dark background for footer */
+    color:#f2f2f2;;
+    padding: 75px;
+    text-align: center;
+}
